@@ -78,6 +78,8 @@ zipp                      3.15.0
 
 本软件已开源，如需进行二次开发可使用GitHub下载源代码进行二次开发。
 
+源码地址：https://github.com/oceanzhou94/openCV-python-demo
+
 ## 5 软件部分使用截图
 
 1.主界面：
