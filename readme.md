@@ -7,8 +7,35 @@
 解压完成后双击 OpenCV图像处理演示程序.exe 即可启动软件
 
 
+## 2 功能实现
+本软件实现的功能包含以下：
+ - 人物图像处理：包含面部检测、面部打码、眼部检测、眼部打码
+ 
+ - 动态人脸检测：调用本机摄像进行人脸检测
+ 
+ - 图像掩膜处理：实现默认掩模和自定义掩膜
+ 
+ - 图像几何变换：包含缩放变换、旋转变换、镜像变换
+ 
+ - 图像形态变换：形态学腐蚀和膨胀操作，开运算、闭运算、梯度运算、礼帽运算、黑帽运算
+ 
+ - 直方图处理：包括绘制直方图，直方图均衡化和二维直方图
+ 
+ - 图像边缘检测：Laplacian边缘检测、Sobel边缘检测、Canny边缘检测
+ 
+ - 图像轮廓检测：查找轮廓、绘制轮廓轮廓的特征
+ 
+ - 图像分割和融合：距离转换、分水岭算法分割图像、金字塔融合
+ 
+ - 图像特征检测：角检测和关键点检测
+ 
+ - 图像特征匹配：暴力匹配和FLANN匹配
+ 
+ - 图像模板匹配：单目标匹配和多目标匹配
+ 
 
-## 2 软件涉及库以及库版本
+
+## 3 软件涉及库以及库版本
 
 本软件开发基于python3.9和pyqt5，涉及图像处理部分逻辑基于opencv-python库。
 
@@ -47,35 +74,35 @@ zipp                      3.15.0
 
 
 
-## 3 开源声明
+## 4 开源声明
 
 本软件已开源，如需进行二次开发可使用GitHub下载源代码进行二次开发。
 
-## 4 软件部分使用截图
+## 5 软件部分使用截图
 
 1.主界面：
 
-![image-20230522115900488](C:\Users\Quattro\AppData\Roaming\Typora\typora-user-images\image-20230522115900488.png)
+![image](https://github.com/oceanzhou94/OpenCV-Python-Process/assets/80324503/4cec1cf2-823e-4114-a302-c852fc5baea0)
 
 2.人物图像打码界面：
 
-![image-20230522115928492](C:\Users\Quattro\AppData\Roaming\Typora\typora-user-images\image-20230522115928492.png)
+![image](https://github.com/oceanzhou94/OpenCV-Python-Process/assets/80324503/43ab8580-09c8-48f8-94fb-9c9609eab2ce)
 
 3.动态人脸检测界面：
 
-![image-20230522120006810](C:\Users\Quattro\AppData\Roaming\Typora\typora-user-images\image-20230522120006810.png)
+![image](https://github.com/oceanzhou94/OpenCV-Python-Process/assets/80324503/f022c857-6196-40b7-aec1-81abc19b42b4)
 
 4.图像轮廓检测界面
 
-![image-20230522120040185](C:\Users\Quattro\AppData\Roaming\Typora\typora-user-images\image-20230522120040185.png)
+![image](https://github.com/oceanzhou94/OpenCV-Python-Process/assets/80324503/ba3b8c4a-e495-4736-85e9-fe141e095093)
 
 5.图像特征匹配界面：
 
-![image-20230522120120253](C:\Users\Quattro\AppData\Roaming\Typora\typora-user-images\image-20230522120120253.png)
+![image](https://github.com/oceanzhou94/OpenCV-Python-Process/assets/80324503/d795f3b5-a7cb-489a-a6c0-3a3acc157a81)
 
 
 
-## 5 联系作者
+## 6 联系作者
 
 作者联系方式：邮箱：oceanzhou163@gmail.com
 
